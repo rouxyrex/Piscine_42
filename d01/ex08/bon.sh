@@ -1,0 +1,1 @@
+ldapsearch -LLL -Q sn="*BON*" sn | grep "sn" | wc -l | tr -d " "
